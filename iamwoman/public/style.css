@@ -1,0 +1,17 @@
+
+.logo {
+  margin: 20px;
+  padding: 0;
+  color: #171717;
+  text-transform: uppercase;
+}
+.main-menu {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-left: 10px;
+}

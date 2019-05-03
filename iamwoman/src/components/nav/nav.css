@@ -1,0 +1,10 @@
+.main-menu {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-left: 10px;
+}

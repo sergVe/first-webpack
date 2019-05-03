@@ -1,0 +1,8 @@
+- const itemText = ['Item 1', 'Item 2', 'Item 3']
+- const ulClassName = 'main-menu'
+- const itemClassName = 'menu-item'
+- const linkClassName = 'menu-link'
+    ul(class= ulClassName)
+        each item in itemText
+            li(class= itemClassName)
+                a(class= linkClassName)= item
