@@ -1,9 +1,20 @@
-- const itemSrcs = ['./img/nav/magnifying-glass.png', './img/nav/avatar.png', './img/nav/shopping-bag.png']
+-
+  const menuData = [{src: './nav/img/magnifying-glass.png',
+  alt:'Поиск'
+  },
+  {src:'./nav/img/avatar.png',
+  alt:'Профиль'
+  },
+  {src:'./nav/img/shopping-bag.png',
+  alt:'Каталог'
+  }]
+
+
 - const ulClassName = 'main-menu'
-- const itemClassName = 'menu-item'
-- const linkClassName = 'menu-link'
+-  const itemClassName = 'menu-item'
+-  const linkClassName = 'menu-link'
   ul(class= ulClassName)
-    each item in itemSrcs
-      li(class= itemClassName)
+    each item in menuData
+      li(class=itemClassName)
         a(class= linkClassName)
-          img(src= item)
+          img(src= item.src, alt= item.alt)
