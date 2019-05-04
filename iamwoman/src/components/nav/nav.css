@@ -1,6 +1,10 @@
 .main-menu {
   list-style-type: none;
   display: flex;
+  min-width: 105px;
+  width: 32.81%;
+  justify-content: space-between;
+  margin-left: auto;
 
 }
 

@@ -1,0 +1,22 @@
+@media (min-width: 320px) and (max-width: 763px) {
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+
+  }
+  .header__page-logo {
+    display: none;
+  }
+
+  .header__main-menu {
+    margin-top: 9px;
+  }
+}
+
+@media (min-width: 764px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
