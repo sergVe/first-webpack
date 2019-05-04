@@ -1,8 +1,9 @@
-- const itemText = ['Item 1', 'Item 2', 'Item 3']
+- const itemSrcs = ['./img/nav/magnifying-glass.png', './img/nav/avatar.png', './img/nav/shopping-bag.png']
 - const ulClassName = 'main-menu'
 - const itemClassName = 'menu-item'
 - const linkClassName = 'menu-link'
-    ul(class= ulClassName)
-        each item in itemText
-            li(class= itemClassName)
-                a(class= linkClassName)= item
+  ul(class= ulClassName)
+    each item in itemSrcs
+      li(class= itemClassName)
+        a(class= linkClassName)
+          img(src= item)
