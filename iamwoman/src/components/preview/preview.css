@@ -1,0 +1,15 @@
+.preview {
+
+}
+.preview__heading {
+  color: #342b2b;
+  font-family: Cormorant-Medium, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  width: 129px;
+  height: 80px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 142px;
+}

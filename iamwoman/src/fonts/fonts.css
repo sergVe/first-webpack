@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Cormorant-Regular';
+  src: url('cormorant/Cormorant-Regular.ttf') format('truetype'),
+  url('cormorant/Cormorant-Regular.woff') format('woff'),
+  url('cormorant/Cormorant-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant-Medium";
+  src: url('cormorant/Cormorant-Medium.ttf') format('truetype'),
+ url('cormorant/Cormorant-Medium.woff') format('woff'),
+  url('cormorant/Cormorant-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

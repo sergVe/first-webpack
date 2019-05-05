@@ -8,7 +8,7 @@
   content: '';
   position: absolute;
   right: 0;
-  top:8px;
+  top:6px;
   display: block;
   width: 18px;
   border-top: 2px solid #352f2f;
@@ -18,8 +18,20 @@
   content: '';
   position: absolute;
   left: 0;
-  top:16px;
+  top:14px;
   display: block;
   width: 18px;
   border-top: 2px solid #352f2f;
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+
+}
+
+@media (min-width: 764px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 1440px) {
+
 }

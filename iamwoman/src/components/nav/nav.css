@@ -8,7 +8,23 @@
 
 }
 
+.menu-item {
+  flex: none;
+}
+
 .menu-link {
   text-decoration: none;
+
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+
+}
+
+@media (min-width: 764px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 1440px) {
 
 }

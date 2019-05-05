@@ -2,7 +2,7 @@
   --main-bg-color: #ede7e2;
 }
 
-.page, .page * {
+ * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -24,10 +24,28 @@ body {
 }
 @media (min-width: 320px) and (max-width: 763px) {
   .header {
+    position: relative;
     display: flex;
     flex-flow: row nowrap;
+    padding-bottom: 27px;
 
   }
+  .header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -4.69%;
+    top: 0;
+
+    width: 100%;
+    height: 490px;
+    background: #ece5e1;
+    opacity: 0.2;
+    background: url(src/components/header/img/left-bg-320.png);
+    background-repeat: no-repeat;
+
+  }
+
   .header__page-logo {
     display: none;
   }
@@ -49,6 +67,7 @@ body {
   padding: 0;
   color: #171717;
   text-transform: uppercase;
+  display: none;
 }
 .main-menu {
   list-style-type: none;
@@ -60,8 +79,24 @@ body {
 
 }
 
+.menu-item {
+  flex: none;
+}
+
 .menu-link {
   text-decoration: none;
+
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+
+}
+
+@media (min-width: 764px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 1440px) {
 
 }
 .burger {
@@ -74,7 +109,7 @@ body {
   content: '';
   position: absolute;
   right: 0;
-  top:8px;
+  top:6px;
   display: block;
   width: 18px;
   border-top: 2px solid #352f2f;
@@ -84,8 +119,52 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top:16px;
+  top:14px;
   display: block;
   width: 18px;
   border-top: 2px solid #352f2f;
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+
+}
+
+@media (min-width: 764px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+.preview {
+
+}
+.preview__heading {
+  color: #342b2b;
+  font-family: Cormorant-Medium, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  width: 129px;
+  height: 80px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 142px;
+}
+@font-face {
+  font-family: 'Cormorant-Regular';
+  src: url(src/fonts/cormorant/Cormorant-Regular.ttf) format('truetype'),
+  url(src/fonts/cormorant/Cormorant-Regular.woff) format('woff'),
+  url(src/fonts/cormorant/Cormorant-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant-Medium";
+  src: url(src/fonts/cormorant/Cormorant-Medium.ttf) format('truetype'),
+ url(src/fonts/cormorant/Cormorant-Medium.woff) format('woff'),
+  url(src/fonts/cormorant/Cormorant-Medium.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }

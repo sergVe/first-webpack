@@ -212,6 +212,75 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/components/preview/index.js":
+/*!*****************************************!*\
+  !*** ./src/components/preview/index.js ***!
+  \*****************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _preview__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./preview */ \"./src/components/preview/preview.js\");\n\n\n//# sourceURL=webpack:///./src/components/preview/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/preview/preview.css":
+/*!********************************************!*\
+  !*** ./src/components/preview/preview.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/components/preview/preview.css?");
+
+/***/ }),
+
+/***/ "./src/components/preview/preview.js":
+/*!*******************************************!*\
+  !*** ./src/components/preview/preview.js ***!
+  \*******************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _preview_pug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./preview.pug */ \"./src/components/preview/preview.pug\");\n/* harmony import */ var _preview_pug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_preview_pug__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _preview_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./preview.css */ \"./src/components/preview/preview.css\");\n/* harmony import */ var _preview_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_preview_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/components/preview/preview.js?");
+
+/***/ }),
+
+/***/ "./src/components/preview/preview.pug":
+/*!********************************************!*\
+  !*** ./src/components/preview/preview.pug ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var pug = __webpack_require__(/*! ../../../node_modules/pug-runtime/index.js */ \"./node_modules/pug-runtime/index.js\");\n\nfunction template(locals) {var pug_html = \"\", pug_mixins = {}, pug_interp;var pug_indent = [];\nconst className = 'preview'\nconst headingClassName = 'heading preview__heading'\n{\npug_html = pug_html + \"\\n\\u003Csection\" + (pug.attr(\"class\", pug.classes([className], [true]), false, true)) + \"\\u003E\\n  \\u003Ch2\" + (pug.attr(\"class\", pug.classes([headingClassName], [true]), false, true)) + \"\\u003E\\u003Cspan\\u003EНовая\\u003C\\u002Fspan\\u003E\\u003Cspan\\u003Eкруизная\\u003C\\u002Fspan\\u003E\\u003Cspan\\u003Eколлекция 19\\u003C\\u002Fspan\\u003E\\u003C\\u002Fh2\\u003E\\n\\u003C\\u002Fsection\\u003E\";\n};return pug_html;};\nmodule.exports = template;\n\n//# sourceURL=webpack:///./src/components/preview/preview.pug?");
+
+/***/ }),
+
+/***/ "./src/fonts/fonts.css":
+/*!*****************************!*\
+  !*** ./src/fonts/fonts.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/fonts/fonts.css?");
+
+/***/ }),
+
+/***/ "./src/fonts/index.js":
+/*!****************************!*\
+  !*** ./src/fonts/index.js ***!
+  \****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fonts_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fonts.css */ \"./src/fonts/fonts.css\");\n/* harmony import */ var _fonts_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_fonts_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/fonts/index.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -220,7 +289,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/page */ \"./src/components/page/index.js\");\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/header */ \"./src/components/header/index.js\");\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/page */ \"./src/components/page/index.js\");\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/header */ \"./src/components/header/index.js\");\n/* harmony import */ var _components_preview__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/preview */ \"./src/components/preview/index.js\");\n/* harmony import */ var _fonts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fonts */ \"./src/fonts/index.js\");\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

@@ -29,7 +29,24 @@ module.exports = {
   ],
   module: {
     rules: [
-
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(ttf|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        }
+      },
       {
         test: /\.pug$/,
         use: [
