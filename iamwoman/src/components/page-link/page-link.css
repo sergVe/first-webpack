@@ -1,0 +1,10 @@
+.page-link {
+  color: #79100b;
+  font-family: Cormorant-Regular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #79100b;;
+}

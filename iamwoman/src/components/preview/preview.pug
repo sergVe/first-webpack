@@ -1,7 +1,10 @@
 - const className = 'preview'
 - const headingClassName = 'heading preview__heading'
+- const linkClassName = 'page-link preview__page-link'
+- const linkText = 'Перейти в каталог'
   section(class= className)
     h2(class= headingClassName)
       span Новая
       span круизная
       span коллекция 19
+  a(href = "#", class = linkClassName)= linkText
